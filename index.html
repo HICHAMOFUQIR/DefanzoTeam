@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Defanzo Team</title>
+  <link rel="icon" href="https://s3.envato.com/files/545208161/Frame%201.png" type="image/x-icon" />
+
+  <style>
+    :root {
+      --main-color: #00ffd5;
+      --bg-dark: #0f0f0f;
+      --bg-card: #1c1c1c;
+      --text-light: #e0e0e0;
+      --text-muted: #888;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 60px 20px 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: var(--main-color);
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+    }
+
+    .apps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: var(--bg-card);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 255, 213, 0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 0 25px rgba(0, 255, 213, 0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h3 {
+      margin-bottom: 10px;
+      color: var(--main-color);
+    }
+
+    .card-content p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .card-content a {
+      display: inline-block;
+      margin-top: 15px;
+      color: var(--main-color);
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid var(--main-color);
+      padding: 8px 14px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .card-content a:hover {
+      background-color: var(--main-color);
+      color: #000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 500px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Defanzo Team</h1>
+    <p>We build beautiful and fast Android apps that solve real-world problems.</p>
+  </header>
+
+  <section class="apps">
+      <div class="card">
+      <img src="https://firebasestorage.googleapis.com/v0/b/mathgameapp-a14a5.firebasestorage.app/o/DDD.png?alt=media&token=d3477c38-f755-4762-8a30-e5684b9811f2" alt="App 1" />
+      <div class="card-content">
+    <h3>Video Downloader</h3>
+<p>Download videos from 55+ platforms quickly and easily.</p>
+
+        <a href="https://www.mediafire.com/file/nnwywij1puc6qgf/VidCatch.apk/file">Google Play</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://market-resized.envatousercontent.com/codecanyon.net/files/638375250/Cover2.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=9ae8190da3831b54f3de535bf8f7aef658556c140172da1884b9bdd3ce66f966" alt="App 1" />
+      <div class="card-content">
+        <h3>Math Puzzles & Brain Games</h3>
+        <p>🧠 Number & Logic Puzzle Game – Test Your Intelligence and Enjoy the Challenge!</p>
+        <a href="https://drive.google.com/file/d/1xyLNBHz5XSB1mc3mR4ID7TRzT_Tzbip7/view">Google Play</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://market-resized.envatousercontent.com/codecanyon.net/files/545205244/Cover.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=83cd4be11126e8ed053c2616a1706740764b1019cc4b4b897a446ff89683e080" alt="App 2" />
+      <div class="card-content">
+        <h3>Photify - Photo Editor App</h3>
+        <p>Photify – Enhance, resize, and filter your photos with powerful, easy-to-use editing tools.</p>
+        <a href="https://drive.google.com/file/d/1g8DMTrXyAR_24coUV5TrC04ahX3E6n0B/view">Google Play</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://market-resized.envatousercontent.com/codecanyon.net/files/514276457/cover.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=617e61738ce4c12ec0e5f7b223b1b78fc395d4b34f425ed15f0f61a51d3eccc9" alt="App 3" />
+      <div class="card-content">
+        <h3>Data Recovery - Recovery old deleted files</h3>
+        <p> Quickly scan and restore deleted photos, videos, and files with ease. Never lose important data again.</p>
+        <a href="https://drive.google.com/file/d/1tlpjluQHo1s5kzBMkrPofMrVd7yXBLm3/view">Google Play</a>
+      </div>
+    </div>
+  <div class="card">
+      <img src="https://market-resized.envatousercontent.com/codecanyon.net/files/522725666/cover.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=8e16e35e484ee87547eb1eaf988b475bfab260e92a919270867c39bc449e89a5" alt="App 3" />
+      <div class="card-content">
+        <h3>PixelPress: Compress Photos and Video</h3>
+        <p>Easily shrink media files without losing quality. Free up space and share faster with one-tap compression.</p>
+        <a href="https://www.mediafire.com/file/nqekjzc01225tu6/app-release.apk/file">Google Play</a>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+  <footer>
+    &copy; 2025 Defanzo Team — All rights reserved.
+  </footer>
+<!-- زر واتساب عائم -->
+<a href="https://wa.me/212639958797" target="_blank" class="whatsapp-float" title="تواصل معنا عبر واتساب">
+  <img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="WhatsApp" />
+</a>
+
+<style>
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-4px);
+    }
+    50% {
+      transform: translateX(4px);
+    }
+    75% {
+      transform: translateX(-4px);
+    }
+  }
+
+  .whatsapp-float {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 999;
+    width: 80px;
+    height: 80px;
+    background-color: #25D366;
+    border-radius: 50%;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pulse 2.5s ease-in-out infinite, shake 6s ease-in-out infinite;
+    transition: transform 0.3s ease;
+  }
+
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+  }
+
+  .whatsapp-float img {
+    width: 40px;
+    height: 40px;
+  }
+</style>
+
+
+
+
+</body>
+</html>
